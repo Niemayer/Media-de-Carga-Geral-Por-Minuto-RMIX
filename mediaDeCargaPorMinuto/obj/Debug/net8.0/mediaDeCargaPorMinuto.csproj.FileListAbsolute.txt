@@ -1,0 +1,14 @@
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\bin\Debug\net8.0\mediaDeCargaPorMinuto.exe
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\bin\Debug\net8.0\mediaDeCargaPorMinuto.deps.json
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\bin\Debug\net8.0\mediaDeCargaPorMinuto.runtimeconfig.json
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\bin\Debug\net8.0\mediaDeCargaPorMinuto.dll
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\bin\Debug\net8.0\mediaDeCargaPorMinuto.pdb
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.AssemblyInfoInputs.cache
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.AssemblyInfo.cs
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.csproj.CoreCompileInputs.cache
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.dll
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\refint\mediaDeCargaPorMinuto.dll
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.pdb
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.genruntimeconfig.cache
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\ref\mediaDeCargaPorMinuto.dll
