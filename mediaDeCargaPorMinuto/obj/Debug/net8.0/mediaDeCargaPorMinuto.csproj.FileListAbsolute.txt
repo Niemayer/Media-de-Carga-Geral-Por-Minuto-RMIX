@@ -12,3 +12,4 @@ C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMi
 C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.pdb
 C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.genruntimeconfig.cache
 C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\ref\mediaDeCargaPorMinuto.dll
+C:\Users\niemayer.conceicao\source\repos\mediaDeCargaPorMinuto\mediaDeCargaPorMinuto\obj\Debug\net8.0\mediaDeCargaPorMinuto.sourcelink.json

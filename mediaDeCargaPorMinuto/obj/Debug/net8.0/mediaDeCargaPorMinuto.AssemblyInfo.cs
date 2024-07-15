@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mediaDeCargaPorMinuto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59f51dc8c8fdd8a56435e72d51057198a2282ae9")]
 [assembly: System.Reflection.AssemblyProductAttribute("mediaDeCargaPorMinuto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mediaDeCargaPorMinuto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
