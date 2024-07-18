@@ -1,20 +1,43 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n- - - - - - - - - - - - - - - - - - - - ");
+            Console.WriteLine("| MÉDIA DE ENVIO DE CARGA POR MINUTO! |");
+            Console.WriteLine("- - - - - - - - - - - - - - - - - - - - \n");
+
+            Console.Write("Digite Horário inicial da carga: ");
+            string[] horarioCargaInicial = Console.ReadLine().Split(':');
+            int horaCarga = int.Parse(horarioCargaInicial[0]);
+            int minutoCarga = int.Parse(horarioCargaInicial[1]);
+
+            while (horaCarga < 17)
+            {
+                Console.Clear();
+                Console.WriteLine("\n- - - - - - - - - - - - - - - - - - - - ");
+                Console.WriteLine("| MÉDIA DE ENVIO DE CARGA POR MINUTO! |");
+                Console.WriteLine("- - - - - - - - - - - - - - - - - - - - \n");
+                Console.WriteLine($"Valor Hora {horaCarga} inválido. Digite novamente.");
+                Console.Write("Digite Horário inicial da carga: ");
+                horarioCargaInicial = Console.ReadLine().Split(':');
+                horaCarga = int.Parse(horarioCargaInicial[0]);
+                minutoCarga = int.Parse(horarioCargaInicial[1]);
+            }
+
             // quantidade de lojas para dar carga
-            int lojas = 21;
+            int lojas = 22;
 
             // horário padrão de carga
-            int horaCarga = 17;
-            int minutoCarga = 09;
+            /* int horaCarga = 17;
+            int minutoCarga = 05;*/
 
             while (true)
             {
+                Console.Clear();
                 Console.WriteLine("\n- - - - - - - - - - - - - - - - - - - - ");
                 Console.WriteLine("| MÉDIA DE ENVIO DE CARGA POR MINUTO! |");
                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - - \n");
@@ -35,7 +58,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     Console.Write(">>> ");
 
                     lojaCargasGeradas = int.Parse(Console.ReadLine());
-
                 }
 
                 // calculando hora em valor decimal (Ex: 1,5 horas)
@@ -47,7 +69,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - -");
                 Console.WriteLine("- - - - - - - - - - - - - - - - - - - -");
-                Console.WriteLine("!!!! RESULTADO !!!!");
+                Console.WriteLine("|  |  |  | | | RESULTADO | | |  |  |  |");
+                Console.WriteLine($"Início da carga: {horaCarga}:{minutoCarga}");
                 Console.WriteLine($"Conversão em minutos: {calculoConvertido.ToString("F2")}min");
 
                 // valor médio de carga enviada por minuto
@@ -61,9 +84,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Console.Write(">>> ");
                 string confirmacao = Console.ReadLine();
 
+
                 
                 if (confirmacao == "s" || confirmacao == "S")
-                {   
+                {
                     Console.Clear();
                     continue;
                 }
@@ -71,13 +95,28 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 {
                     break;
                 }
-
-                /* while (confirmacao != "n" || confirmacao != "N" || confirmacao == "s" || confirmacao != "S")
+                else
                 {
-                    Console.WriteLine("\n- - - - - Valor incorreto - - - - -");
-                    Console.WriteLine("\nDeseja realizar nova operação? s/n: ");
-                    confirmacao = Console.ReadLine();
-                }*/
+                    while (confirmacao != "s" || confirmacao != "S" || confirmacao != "n" || confirmacao != "N")
+                    {
+                        Console.Clear();
+                        Console.WriteLine("\n- - - - - - - - - - - - - - - - - - - - ");
+                        Console.WriteLine("| MÉDIA DE ENVIO DE CARGA POR MINUTO! |");
+                        Console.WriteLine("- - - - - - - - - - - - - - - - - - - - ");
+                        Console.WriteLine("- - - - - - - - - - - - - - - - - - - -");
+                        Console.WriteLine("\\\\\\\\\\\\\\ RESULTADO //////////////");
+                        Console.WriteLine($"Início da carga: {horaCarga}:{minutoCarga.ToString("F2")}");
+                        Console.WriteLine($"Conversão em minutos: {calculoConvertido.ToString("F2")}min");
+                        Console.WriteLine($"Media de Carga por Minuto: {mediaDeCargaMinuto.ToString("F2")}min");
+                        Console.WriteLine("- - - - - - - - - - - - - - - - - - - -");
+                        Console.WriteLine("- - - - - - - - - - - - - - - - - - - -");
+                        Console.WriteLine($"Valor ínválido: {confirmacao}\nDeseja realizar nova operação? s/n: ");
+                        Console.Write(">>> ");
+                        string confirmacaoWhile = Console.ReadLine();
+                        confirmacao = confirmacaoWhile;
+                        //Verificar loop infinito, corrigir;
+                    }
+                }
             }
         }
     }
